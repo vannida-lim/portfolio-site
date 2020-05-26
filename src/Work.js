@@ -1,11 +1,15 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+
+const Wrapper = styled.div`
+
+`
 
 export const Work = () => {
     return (
-        <div>
-            
-        </div>
+        <Wrapper>
+
+        </Wrapper>
     )
 }
 
