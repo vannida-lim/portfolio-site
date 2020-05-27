@@ -15,7 +15,6 @@ const Header = styled.div`
     font-weight: bold;
     width: 325px;
     height: 100px;
-    border: 1px solid black;
 `;
 
 const Project = styled.div`
@@ -26,16 +25,13 @@ const Project = styled.div`
     text-align: left;
     left: 200px; 
     width: 80%;
-    border: 1px solid black;
 `;
 
 const TextArea = styled.div`
     width: 60%;
     display: inline-block;
     vertical-align: top;
-// border: 1px solid black;
-
-`
+`;
 
 const Title = styled.div`
     padding: 10px;

@@ -11,9 +11,6 @@ const Header = styled.div`
     font-weight: bold;
     width: 277px;
     height: 100px;
-
-   
-    border: 1px solid black;
 `
 
 const Blurb = styled.div`
@@ -24,7 +21,6 @@ const Blurb = styled.div`
     text-align: left;
     left: 200px; 
     width: 500px;
-    border: 1px solid black;
 `;
 
 
@@ -50,7 +46,6 @@ const Socials = styled.div`
     text-align: left;
     left: 200px; 
     width: 550px;
-    border: 1px solid black;
 `;
 
 class AboutMe extends Component {
