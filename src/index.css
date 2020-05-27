@@ -5,9 +5,38 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #253549;
+  overflow-x: hidden;
 }
+
+div::selection {
+  background: #E7AE92;
+  color: white;
+}
+div::-moz-selection {
+  background: #E7AE92;
+  color: white;
+}
+
+h1::selection {
+  background: #E7AE92;
+  color: white;
+}
+h1::-moz-selection {
+  background: #E7AE92;
+  color: white;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#email {
+  cursor: url('./icons/gmail.png'), auto;
+  width: 240px;
 }
