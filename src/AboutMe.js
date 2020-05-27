@@ -9,7 +9,7 @@ const Header = styled.div`
     padding: 0.1em;   
     font-size: 1.6em;
     font-weight: bold;
-    width: 275px;
+    width: 277px;
     height: 100px;
 
    
@@ -34,7 +34,6 @@ const ProfilePic = styled.img`
     position: relative;
     top: 50px;
     left: 100px;
-    // border: 1px solid black;
 `;
 
 const BlurbAndPic = styled.div`
@@ -98,7 +97,7 @@ class AboutMe extends Component {
     render() {
         return (
             <Wrapper>
-                <Header><h1>Some Details</h1></Header>
+                <Header><h1>Some details.</h1></Header>
                 <BlurbAndPic>
                     <Blurb>
                         <hr style={this.hrStyle}></hr>
