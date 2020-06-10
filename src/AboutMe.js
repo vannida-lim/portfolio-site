@@ -97,7 +97,7 @@ class AboutMe extends Component {
                     <Blurb>
                         <hr style={this.hrStyle}></hr>
                         <h1>In a nutshell</h1>
-                        <div>Nice to meet you! I'm a full stack developer specializing in JavaScript, Ruby, Rails, Node.js, React.js, SQL and NoSQL. I enjoy creating applications that follow RESTful convention, MVC, and Flux patterns. I love creating a impactful and accessible user experiences.</div>
+                        <div>Nice to meet you! I'm a full stack developer specializing in JavaScript, Ruby, Rails, Node.js, React.js, SQL and NoSQL. I enjoy creating applications that follow RESTful convention, MVC, and Flux patterns. I love creating impactful and accessible user experiences.</div>
                         <br/>
                         <div>My love for travel led me to Seoul, South Korea, where I was an English teacher for 3 years. I have travelled to about 25 countries and love solo-backpacking. When I'm not coding, you can find me powerlifting, snowboarding, or meditating.</div>
                     </Blurb>
@@ -113,7 +113,7 @@ class AboutMe extends Component {
                         Read some of my <a href='https://medium.com/@vannida.lim' style={this.hrefStyle}>Medium</a> articles.
                     </div>
                     <div style={this.socialsDivStyle}>
-                        Feel free to connect on <a href='https://www.linkedin.com/in/vannida-lim/' style={this.hrefStyle}>Linkedin</a> with me.
+                        Feel free to connect on <a href='https://www.linkedin.com/in/vannida-lim/' style={this.hrefStyle}>Linkedin</a>.
                     </div>
                     <div style={this.socialsDivStyle}>
                         My email is: 

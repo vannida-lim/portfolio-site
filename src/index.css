@@ -1,12 +1,17 @@
 body {
   margin: 0;
-  font-family: 'Cormorant', sans-serif;
+  font-family: 'Palatino', serif;
   color: #BF7B5B;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #253549;
   overflow-x: hidden;
 }
+
+/* @font-face {
+  font-family: 'Cormorant';
+  src: url();
+} */
 
 div::selection {
   background: #E7AE92;

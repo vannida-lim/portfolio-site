@@ -18,7 +18,6 @@ const Header = styled.div`
 `;
 
 const Project = styled.div`
-    // font-size: 1.6em;
     margin: 1em;
     padding: 0.5em;
     position: relative;
