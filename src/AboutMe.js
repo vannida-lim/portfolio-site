@@ -65,11 +65,15 @@ class AboutMe extends Component {
     }
 
     socialsDivStyle = {
-        margin: '10px',
+        margin: '10px'
     }
 
     hrStyle = {
         border: '1px solid #BF7B5B'
+    }
+
+    pStyle = {
+        lineHeight: '1.5'
     }
 
     onCopy = () => {
@@ -97,9 +101,9 @@ class AboutMe extends Component {
                     <Blurb>
                         <hr style={this.hrStyle}></hr>
                         <h1>In a nutshell</h1>
-                        <div>Nice to meet you! I'm a full stack developer specializing in JavaScript, Ruby, Rails, Node.js, React.js, SQL and NoSQL. I enjoy creating applications that follow RESTful convention, MVC, and Flux patterns. I love creating impactful and accessible user experiences.</div>
+                        <p style={this.pStyle}>Nice to meet you! I'm a full stack developer specializing in JavaScript, Ruby, Rails, Node.js, React.js, SQL and NoSQL. I enjoy creating applications that follow RESTful convention, MVC, and Flux patterns. I love creating impactful and accessible user experiences.</p>
                         <br/>
-                        <div>My love for travel led me to Seoul, South Korea, where I was an English teacher for 3 years. I have travelled to about 25 countries and love solo-backpacking. When I'm not coding, you can find me powerlifting, snowboarding, or meditating.</div>
+                        <p style={this.pStyle}>My love for travel led me to Seoul, South Korea, where I was an English teacher for 3 years. I have travelled to about 25 countries and love solo-backpacking. When I'm not coding, you can find me powerlifting, snowboarding, or meditating.</p>
                     </Blurb>
                     <ProfilePic src={myProfile} alt='profile pic'/>
                 </BlurbAndPic>
@@ -114,6 +118,9 @@ class AboutMe extends Component {
                     </div>
                     <div style={this.socialsDivStyle}>
                         Feel free to connect on <a href='https://www.linkedin.com/in/vannida-lim/' style={this.hrefStyle}>Linkedin</a>.
+                    </div>
+                    <div style={this.socialsDivStyle}>
+                        View my <a href='https://drive.google.com/file/d/1m0dyM0XrhKhBsOMOFrzzIKznizzZa3S2/view?usp=sharing' style={this.hrefStyle}>resume</a>. 
                     </div>
                     <div style={this.socialsDivStyle}>
                         My email is: 
