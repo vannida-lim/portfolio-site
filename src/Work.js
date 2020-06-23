@@ -123,7 +123,7 @@ const Work = () => {
                 <hr style={{border: '1px solid #BF7B5B'}}></hr>
                 <TextArea>
                     <Title>
-                        <a title='github repo' title='github repo' href='https://github.com/vannida-lim/weather-app'>Weather</a>
+                        <a title='github repo' href='https://github.com/vannida-lim/weather-app'>Weather</a>
                     </Title>
                     <TechStack>JavaScript, Node.js, Express.js</TechStack>
                     <Description>
