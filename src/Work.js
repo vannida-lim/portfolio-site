@@ -4,7 +4,8 @@ import styled from 'styled-components';
 import demo1 from './icons/demo1.png'
 import demo2 from './icons/demo2.png'
 import demo3 from './icons/demo3.png'
-import demo4 from './icons/demo4.png'
+import demo4 from './icons/demo4.gif'
+import demo5 from './icons/demo5.gif'
 
 const Wrapper = styled.div`
 
@@ -150,6 +151,22 @@ const Work = () => {
                     </DemoLink>
                 </TextArea>
                 <Demo><img alt='demo' style={{width: '100%'}} src={demo4}/></Demo>
+            </Project>
+            <Project>
+                <hr style={{border: '1px solid #BF7B5B'}}></hr>
+                <TextArea>
+                    <Title>
+                        <a title='github repo' href='https://github.com/vannida-lim/job-listings-frontend'>JobListings</a>
+                    </Title>
+                    <TechStack>JavaScript, React, styled-components</TechStack>
+                    <Description>
+                        A React app that dynamically renders job listings. 
+                    </Description>
+                    <DemoLink>
+                        <a href='https://job-listings-frontend.netlify.app/'>Netlify</a>
+                    </DemoLink>
+                </TextArea>
+                <Demo><img alt='demo' style={{width: '100%'}} src={demo5}/></Demo>
             </Project>
         </Wrapper>
     )
