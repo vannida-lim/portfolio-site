@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import demo1 from './icons/demo1.png'
-import demo2 from './icons/demo2.png'
-import demo3 from './icons/demo3.png'
-import demo4 from './icons/demo4.gif'
-import demo5 from './icons/demo5.gif'
+import demo1 from './icons/demo1.png';
+import demo2 from './icons/demo2.png';
+import demo3 from './icons/demo3.png';
+import demo4 from './icons/demo4.gif';
+import demo5 from './icons/demo5.gif';
 
 const Wrapper = styled.div`
 

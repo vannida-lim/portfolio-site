@@ -1,20 +1,18 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
-const Blurb = styled.div`
+const Wrapper = styled.div`
     font-size: 6em;
     margin: 0.2em;
     padding-top: 2em;
     padding-bottom: 1em;
-  
-    // border: 1px solid black;
 `;
 
 const Hero = () => {
     return (
-        <Blurb>
+        <Wrapper>
             Hello! I'm a software engineer living in Philadelphia.
-        </Blurb>
+        </Wrapper>
     )
 }
 
